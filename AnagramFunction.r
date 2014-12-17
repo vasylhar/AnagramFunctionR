@@ -8,9 +8,6 @@ e=subset(e, Freq >1)
 
 s<-lapply(e$d, function(x) { c[which = d %in% x] })
 
-df<-do.call("rbind",s)
-
-
        return(s)
    }
    
